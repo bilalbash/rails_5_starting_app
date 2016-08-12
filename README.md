@@ -2,32 +2,34 @@
 
 This application has responsive mobile view and navigation, twitter bootstrap, rails 5.0.0 and slim setup.
 
-important features are:
+### Important features
 
 * ruby version 2.3.0
 
 * rails version 5.0.0
 
-* always use this command for bundle during development in local machine:
+### Bundle
+
+Always use this command for bundle during development in local machine:
 
     bundle install --without production
 
-* always use this command for bundle for production environmnet:
+Always use this command for bundle for production environment:
 
     bundle install --without development test
 
-* Database creation and initialization:
+### Database creation and initialization
 
     bundle exec rake db:setup
 
-* How to run the test suite:
+### How to run the test suite?
 
-    no test suite for now
+* no test suite for now
 
-* Services (job queues, cache servers, search engines, etc.)
+### Services (job queues, cache servers, search engines, etc.)
 
-    nothing yet
+* nothing yet
 
-* Deployment instructions
+### Deployment instructions
 
-    nothing yet
+* nothing yet
